@@ -1,0 +1,34 @@
+.ProgressContainer {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+	background: #d3d3d3;
+	outline: none;
+	overflow: hidden;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.ProgressContainer::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #1597ff;
+	box-shadow: -340px 0 0 320px #1597ff, inset 0 0 0 40px #1597ff;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+	position: relative;
+	cursor: pointer;
+}
+
+.ProgressContainer:active::-webkit-slider-thumb {
+	background: white;
+	box-shadow: -340px 0 0 320px #1597ff, inset 0 0 0 3px #1597ff;
+}
+
+.ProgressContainer::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #1597ff;
+	cursor: pointer;
+}

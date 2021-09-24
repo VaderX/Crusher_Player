@@ -1,0 +1,22 @@
+.vidArea{
+	width: inherit;
+	height: inherit;
+	position: relative;
+}
+
+.vidDisplay{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+}
+
+.ControlOptions{
+	width: inherit;
+	bottom: 0;
+	/* background: #cc002270; */
+	position: absolute;
+}
+
+.cursor{
+	cursor: pointer;
+}
