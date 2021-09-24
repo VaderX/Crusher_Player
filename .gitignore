@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /Assets
+.mp4
 /.pnp
 .pnp.js
 
